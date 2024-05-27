@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        .parent
+        {
+            
+            display: flex;
+            margin-left: 200px;
+            border: 2px solid black;
+            justify-content: center;
+        }
+        h1{
+            text-align: center;
+            font-weight: bold;
+        }
+        img{
+            width: 400px;
+            height: 450px;
+            margin-top: 80px;
+        }
+        form{
+            width: 400px;
+            height: 400px;
+            font-family: Arial, Helvetica;
+            background-color:antiquewhite;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 80px;
+
+        }
+        label{
+            margin: auto;
+            font-weight: bold;
+        }
+        
+        
+        input[type="login"] {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+        span.error-message{
+            color:red;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Login Form</h1>
+        <div class="parent">
+            
+            <div class="child1">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.F6PnHN7P1yr3b7jCHl83hwHaJQ&pid=Api&P=0&h=180" alt="">
+             </div>
+            <div class="child2">
+        
+        <form action="#" method="post">
+            <label for="name">Name<span class="error-message">*</span></label>
+            <input type="text" id="name">
+         <hr>
+         <label for="Ph No">Ph No<span class="error-message">*</span></label>
+            <input type="Ph No" id="Ph No" name="Ph No" required>
+         <hr>
+
+            <label for="user_email">Email <span class="error-message">*</span>:</label>
+        <input type="email" id="user_email" name="user_email" required>
+        <hr>
+        
+       <input type="checkbox" id="terms_conditions" name="terms_conditions">
+        <label for="terms_conditions">I agree to the terms and conditions</label>
+         <hr>
+        <input type="login" value="Login">
+         
+        </form>
+    </div>
+    
+    </div>
+    </body>
+    </html>
