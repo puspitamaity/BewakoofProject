@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+header, footer {
+    width: 100%;
+    text-align: center;
+    background-color:yellow;
+    color: white;
+    padding: 30px 0;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.product-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.product-main-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.product-thumbnail {
+    width: 100px;
+    height: 100px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.product-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e53935;
+}
+
+.product-sizes {
+    margin: 10px 0;
+}
+
+.buy-button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.buy-button:hover {
+    background-color: #e64a19;
+}
+</style>
+<body>
+    <header>
+        <img class="logo" src="https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg" alt="logo">
+    </header>
+    
+    <main>
+        <section class="product-details">
+            <div class="product-images">
+                <img src="https://images.bewakoof.com/uploads/category/desktop/Printed-T-Shirts_Inside_Desktop-Banner_RM_(3)-1706085574.jpg" alt="T-Shirt Image" class="product-main-image">
+                <div class="thumbnail-container">
+                    <img src="https://images.bewakoof.com/t640/women-s-blue-inner-peace-graphic-printed-boyfriend-t-shirt-295707-1695391099-5.jpg" alt="T-Shirt Thumbnail 1" class="product-thumbnail">
+                    <img src="https://images.bewakoof.com/t640/women-s-black-tropical-vibes-typography-oversized-t-shirt-493433-1715257753-1.jpg" alt="T-Shirt Thumbnail 2" class="product-thumbnail">
+                    <img src="https://images.bewakoof.com/t640/women-s-black-been-there-boyfriend-t-shirt-482681-1655751940-1.jpg" alt="T-Shirt Thumbnail 3" class="product-thumbnail">
+                </div>
+            </div>
+            <div class="product-info">
+                <h2>Women's Casual T-Shirt</h2>
+                <p class="product-description">High-quality casual t-shirt made from premium fabric, perfect for everyday wear.</p>
+                <p class="product-price">₹499.00</p>
+                
+                <div class="product-sizes">
+                    <label for="size">Size:</label>
+                    <select id="size" name="size">
+                        <option value="s">Small</option>
+                        <option value="m">Medium</option>
+                        <option value="l">Large</option>
+                        <option value="xl">X-Large</option>
+                    </select>
+                </div>
+
+                <button class="buy-button" onclick="buyProduct()">Buy Now</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p style="color: black;"> 2024 Bewakoof@</p>
+    </footer>
+</body>
+</html>
