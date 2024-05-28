@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body
+        {
+         background-color: yellow;  
+        }
+        .parent{
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+            text-align: center;
+            font-weight: bold;
+        }
+        img{
+            width: 400px;
+            height: 550px;
+            margin-top: 5px;
+            border-radius: 20px;
+        }
+        form{
+            width: 400px;
+            height: 500px;
+            font-family: Arial, Helvetica;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 5px;
+
+        }
+        label{
+            margin: auto;
+            font-weight: bold;
+        }
+        
+        
+        .buy-button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.buy-button:hover {
+    background-color: #e64a19;
+}
+        .child3{
+            display: flex;
+            gap: 20px;
+        }
+        .child{
+            display: grid;
+            grid-template-rows: (100px 100px 100px 100px 100px);
+        }
+        .child img{
+            width: 100px;
+            height: 100px;
+        }
+        .logo{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    </head>
+    <body>
+        <img class="logo" src="https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg" alt="">
+        <div class="parent">
+            <div class="child">
+                <img src="https://images.bewakoof.com/t96/men-s-black-all-over-printed-oversized-t-shirt-616642-1715257458-1.jpg" alt="">
+                <img src="https://images.bewakoof.com/original/men-oversized-aop-t-shirt-22-616642-1705390418-2.jpg" alt="">
+                 <img src="https://images.bewakoof.com/t96/men-oversized-aop-t-shirt-22-616642-1705390424-3.jpg" alt="">
+                 <img src="https://images.bewakoof.com/t96/men-oversized-aop-t-shirt-22-616642-1705390429-4.jpg" alt="">
+                <img src="https://images.bewakoof.com/t96/men-oversized-aop-t-shirt-22-616642-1705390434-5.jpg" alt="">
+                </div>
+            
+            <div class="child1">
+                <img src="https://images.bewakoof.com/t1080/men-s-black-all-over-printed-oversized-t-shirt-616642-1715257458-1.jpg" alt="">
+             </div>
+            <div class="child2">
+        
+        <form action="#" method="post">
+            <h3> OFFICIAL NARUTO MERCHANDISE</h3>
+            <h5>Men's Black All Over Printed Oversized T-shirt</h5>
+            <h2>₹614</h2>
+              <h6>  ₹1699
+                63% OFF
+                
+                inclusive of all taxes</h6>
+            <h6>TriBe members get an extra discount of ₹45 and FREE shipping.Learn more</h6>
+         <hr>
+
+         <label for="size">Size:</label>
+         <select id="size" name="size">
+             <option value="s">Small</option>
+             <option value="m">Medium</option>
+             <option value="l">Large</option>
+             <option value="xl">X-Large</option>
+         </select>
+        <hr>
+        <div class="child3">
+      <div>  <button class="buy-button" onclick="buyProduct()"> ADD TO BAG</button> </div>
+      <div> <button class="buy-button" onclick="buyProduct()">WISHLIST</button></div>
+    </div> <hr>
+    <h5> CHECK FOR DELIVERY DETAILS</h5>
+    <h6>Delivering all across India</h6>
+        <input type="enterPincode" value="Enter Pincode">
+          </form>
+    </div>
+    
+    </div>
+    </body>
+    </html>
