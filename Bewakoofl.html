@@ -278,7 +278,84 @@
     margin-left: 70px;
 }
    
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+    #bewakoof {
+        width: 100%;
+        height: auto;
+    }
 
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .logo{
+        width: 150px;
+        height: auto;
+    }
+    
+    .trending-catalogs{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    .Too-Be{
+        grid-template-columns: 1fr;
+    }
+   }
+    /* For Devices with a max-width of 768px */
+   @media (max-width: 768px){
+    #navbar{
+        font-size: 16px;
+    }
+    .items1 a {
+        font-size: 14px;
+    }
+    .gif img {
+        width:100%
+    }
+    .trending-catalogs{
+        grid-template-columns: 1fr;
+        gap:10px
+    }
+    .flex4 > div {
+        width: 100%;
+    }
+    .Too-Be{
+        grid-template-columns: 1fr;
+    }
+}
+ /* For Devices with a max-width of 480px */
+@media (max-width: 480px){
+    #navbar {
+        display: none;
+    }
+    .flex1{
+        display: none;
+    }
+    #flex1SelectContainer{
+        display: flex;
+    }
+    .logo{
+        width:100px
+    }
+    .gif p {
+      font-size: 12px;
+    }
+    .trending-catalogs{
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    .flex3{
+        display: none;
+    }
+    .flex4{
+        display: none;
+    }
+}
     
 </style>
 
@@ -312,6 +389,19 @@
             <a href="C:\Users\Atyati\Desktop\first-project\BewakoofProject\OfficalMerch.html"> OFFICIAL MERCH</a>
             <a href=""> PLUS SIZE</a>
         </div>
+        <div id="flex1SelectContainer">
+            <select name="" id="Select">
+               <option value=""> View Option</option>
+               <option value="">LIVE NOW</option>
+               <option value="">MEN</option>
+               <option value="">WOMEN</option>
+               <option value="">ACCESSORIES</option>
+               <option value="">BEWAKOOF</option>
+               <option value="">HEAVY DUTY</option>
+               <option value="">OFFICIAL-MERCH</option>
+               <option value="">PLUS SIZE</option>
+            </select>
+           </div>
            <div class="flex2">
             <img src="https://images.bewakoof.com/uploads/grid/app/HC---1X1-cargo-pants---common-1716375735.jpg"  alt="...">
             <img src="https://images.bewakoof.com/uploads/grid/app/YFED-1x1-backprint-common-1716541547.jpg"  alt="...">
