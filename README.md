@@ -1,3 +1,6 @@
+![main2](https://github.com/puspitamaity/BewakoofProject/assets/165947436/792afe6f-f7ce-4c83-8b12-f26d2bfe29a7)
+![main2](https://github.com/puspitamaity/BewakoofProject/assets/165947436/792afe6f-f7ce-4c83-8b12-f26d2bfe29a7)
+![main2](https://github.com/puspitamaity/BewakoofProject/assets/165947436/792afe6f-f7ce-4c83-8b12-f26d2bfe29a7)
 # BewakoofProject
 This is My First Project is Bewakoof.com using HTML and CSS .
 Bewakoof is smart online shopping Platfrom. We Can shop Men and Women Apparels 
@@ -235,4 +238,7 @@ It's also Official Merch page and scroll-down and click AddBag .
 }
 
 added Media query also for maximum , Medium and small screen view .
+![main2](https://github.com/puspitamaity/BewakoofProject/assets/165947436/36d64533-f676-4fb1-8880-a5f492fa4ef9)
+![footer](https://github.com/puspitamaity/BewakoofProject/assets/165947436/1fddbe14-5861-4399-a1ff-cc67ca271228)
+
 
