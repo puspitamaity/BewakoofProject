@@ -1,5 +1,5 @@
 # BewakoofProject
-This is My First Project using HTML and CSS .
+This is My First Project is Bewakoof.com using HTML and CSS .
 Bewakoof is smart online shopping Platfrom. We Can shop Men and Women Apparels 
 Bewakoof.com offers trendy and affordable clothing and accessories for men and women. Shop online from a diverse range of styles, collaborations, customization combos and more.
 
@@ -38,20 +38,17 @@ Bewakoof.com offers trendy and affordable clothing and accessories for men and w
 
         Here i am using div tag ,anchor tag,navbar  for creating front page .
 ![loginpage](https://github.com/puspitamaity/BewakoofProject/assets/165947436/263a39d9-9658-4875-b947-886fb159ac0b)
-![loginpage](https://github.com/puspitamaity/BewakoofProject/assets/165947436/263a39d9-9658-4875-b947-886fb159ac0b)
-![loginpage](https://github.com/puspitamaity/BewakoofProject/assets/165947436/263a39d9-9658-4875-b947-886fb159ac0b)
+
 
 When You clicked Login page another loginpage will open.
-![Men's page](https://github.com/puspitamaity/BewakoofProject/assets/165947436/64a7ca90-b74c-43d6-9174-0470da172f06)
 ![Men's page](https://github.com/puspitamaity/BewakoofProject/assets/165947436/64a7ca90-b74c-43d6-9174-0470da172f06)
 
 Added Another Branch when clicked Men page it will open for showing the Men's Apparel only .
 
 ![carousel](https://github.com/puspitamaity/BewakoofProject/assets/165947436/d4a1a880-e938-4dfa-ba9a-5a17f5e9d76e)
-![carousel](https://github.com/puspitamaity/BewakoofProject/assets/165947436/d4a1a880-e938-4dfa-ba9a-5a17f5e9d76e)
-![carousel](https://github.com/puspitamaity/BewakoofProject/assets/165947436/d4a1a880-e938-4dfa-ba9a-5a17f5e9d76e)
 
-![Men's page](https://github.com/puspitamaity/BewakoofProject/assets/165947436/64a7ca90-b74c-43d6-9174-0470da172f06)
+
+
 
 I added carousel for sliding the content using bootstrap .
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -171,5 +168,71 @@ I added carousel for sliding the content using bootstrap .
     <img src="https://images.bewakoof.com/uploads/grid/app/Official-Merch-Store-Desktop-midsize-banner-1713792662.jpg" alt="">
 </div>
 
+![women](https://github.com/puspitamaity/BewakoofProject/assets/165947436/eee205b6-3ba1-404b-a3fc-1b44879c5cd9)
 
+Then move to main page and clicked women page another page will open for showing women's items.
+
+![BuyNow](https://github.com/puspitamaity/BewakoofProject/assets/165947436/9d63a123-998c-4cb6-bea9-4726d66c7758)
+
+I have create a Buy Now page for Buying any product we can visit to click shop Now .
+
+![Official Merch](https://github.com/puspitamaity/BewakoofProject/assets/165947436/0b8c9a10-e6be-4383-81c1-fa01726ee918)
+
+It's also Official Merch page and scroll-down and click AddBag .
+
+![video](https://github.com/puspitamaity/BewakoofProject/assets/165947436/df10844b-1397-4afc-b229-8cbe3ffc7f65)
+
+ Atlast i added two video at the last when click watch me show it will open .
+
+@media (max-width: 768px){
+    #navbar{
+        font-size: 16px;
+    }
+    .items1 a {
+        font-size: 14px;
+    }
+    .gif img {
+        width:100%
+    }
+    .trending-catalogs{
+        grid-template-columns: 1fr;
+        gap:10px
+    }
+    .flex4 > div {
+        width: 100%;
+    }
+    .Too-Be{
+        grid-template-columns: 1fr;
+    }
+}
+ /* For Devices with a max-width of 480px */
+@media (max-width: 480px){
+    #navbar {
+        display: none;
+    }
+    .flex1{
+        display: none;
+    }
+    #flex1SelectContainer{
+        display: flex;
+    }
+    .logo{
+        width:100px
+    }
+    .gif p {
+      font-size: 12px;
+    }
+    .trending-catalogs{
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    .flex3{
+        display: none;
+    }
+    .flex4{
+        display: none;
+    }
+}
+
+added Media query also for maximum , Medium and small screen view .
 
